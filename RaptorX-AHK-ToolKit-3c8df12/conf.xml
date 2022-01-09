@@ -4,7 +4,8 @@
 		<Startup ssi="0" sww="1" smm="0" cfu="1">
 		</Startup>
 		<MainKey ctrl="0" alt="0" shift="0" win="1">`</MainKey>
-		<SuspWndList></SuspWndList>
+		<SuspWndList>
+		</SuspWndList>
 		<Codet status="1" mode="1">
 			<Pastebin current="AutoHotkey.net">
 				<AutoHotkey private="0" nick="">
@@ -367,8 +368,174 @@ ltrim rtrim join ahk_id ahk_pid ahk_class ahk_group processname minmax controlli
 			</Imagebin>
 		</ScrTools>
 	</Options>
-	<Hotkeys count="0">
+	<Hotkeys count="23">
+		<hk type="File" key="#F10">
+			<name>Fd-sendkeys</name>
+			<path>F:\SRC\repos\ahk\ahkFaq2\fd-sendkeys.ahk</path>
+			<script>5</script>
+		</hk>
+		<hk type="Script" key="pgDn">
+			<name>Imported</name>
+			<script>5</script>
+		</hk>
+		<hk type="Script" key="^F5">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="PrintScreen">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="+!LButton">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="^CtrlBreak">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="^+F12">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="Esc">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="RButton">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="~LButton">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="!F11">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="F12">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="Browser_Back">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="Browser_Forward">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="+Escape">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="^e">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="^j">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="WheelDown">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="WheelUp">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="#c">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="#c">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="^a">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
+		<hk type="Script" key="#n">
+			<name>Imported</name>
+			<script>1</script>
+		</hk>
 	</Hotkeys>
-	<Hotstrings count="0">
+	<Hotstrings count="17">
+		<hs iscode="1" opts="*B0">
+			<expand>[size=</expand>
+			<expandto>    Menu, Size, Show
+</expandto>
+		</hs>
+		<hs iscode="1" opts="*B0">
+			<expand>[color=</expand>
+			<expandto>    Menu, Color, Show
+</expandto>
+		</hs>
+		<hs iscode="1" opts="*B0">
+			<expand>[url=</expand>
+			<expandto>    SendInput %clipboard%][/url]{Left 6}
+</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[url]</expand>
+			<expandto>[/url]{Left 6}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[img]</expand>
+			<expandto>[/img]{Left 6}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[gist]</expand>
+			<expandto>[/gist]{Left 7}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[youtube]</expand>
+			<expandto>[/youtube]{Left 10}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[quote]</expand>
+			<expandto>[/quote]{Left 8}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[code]</expand>
+			<expandto>[/code]{Left 7}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[list]</expand>
+			<expandto>[/list]{Left 7}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[s]</expand>
+			<expandto>[/s]{Left 4}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[u]</expand>
+			<expandto>[/u]{Left 4}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[i]</expand>
+			<expandto>[/i]{Left 4}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[c]</expand>
+			<expandto>[/c]{Left 4}</expandto>
+		</hs>
+		<hs iscode="0" opts="*B0">
+			<expand>[b]</expand>
+			<expandto>[/b]{Left 4}</expandto>
+		</hs>
+		<hs iscode="1" opts="">
+			<expand>time</expand>
+			<expandto>FormatTime, date, %a_now%, MM ** dd ** yyyy
+send %date%
+</expandto>
+		</hs>
+		<hs iscode="0" opts="">
+			<expand>wah</expand>
+			<expandto> Windows Autohotkey</expandto>
+		</hs>
 	</Hotstrings>
 </AHK-Toolkit>

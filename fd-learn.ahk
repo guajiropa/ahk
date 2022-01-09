@@ -8,7 +8,7 @@ SetWorkingDir, %A_ScriptDir%
 
 str_to_send := "This is a string to share" 
 MsgBox % "Howdy Bitches!!"
-MsgBox This is where the script is stored:`r`n %A_ScriptDir%
+MsgBox % "This is where the script is stored: `r`n"A_ScriptDir
 Gosub, tst_sub
 myFunc(str_to_send)
 Return
@@ -19,6 +19,6 @@ Return
 
 myFunc(shared_string)
 {
-    MsgBox while this message box is `r`nfrom a function call. `r`n%shared_string%
+    MsgBox % "While this message box is `r`nfrom a function call. `r`n"shared_string
     return
 }
