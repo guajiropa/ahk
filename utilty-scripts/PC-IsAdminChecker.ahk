@@ -21,7 +21,7 @@ MsgBox, A_Username %A_Username%`nA_MyDocuments  %A_MyDocuments%`nA_AppData %A_Ap
 
 if (!A_IsAdmin)
 {
-    Run, *RunAs "%A_ScriptFullPath%"    
+    Run, *RunAs "%A_ScriptFullPath%"    ;elevates the script to run in Admin mode
 }
 
 MsgBox, A_Username %A_Username%`nA_MyDocuments  %A_MyDocuments%`nA_AppData %A_AppData%`nA_IsAdmin %A_IsAdmin%
