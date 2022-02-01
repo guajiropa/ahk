@@ -1,10 +1,5 @@
-Click 2844,122
-Click 878,39
-Click 2852,135
-Click 2071,184
-Click 2068,201
-Click 2062,219
-Click 2063,246
-Click 2055,273
-Click 2094,202
-Click 2848,132
+
+Click 429,997
+Click 1803,417
+Click 1829,729
+Click 958,90
